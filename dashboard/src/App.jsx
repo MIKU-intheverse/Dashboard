@@ -3,7 +3,7 @@ import {BrowserRouter, Route, Routes } from 'react-router-dom';
 import Header from './Components/Header'
 import Sidebar from './Components/Sidebar'
 import Dashboard from './Components/Dashboard'
-
+import Filters from './Components/Filters'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -31,6 +31,7 @@ function App() {
     < Sidebar/>
     < Dashboard />
     </div>
+    <Filters />
     </>
   )
 }
