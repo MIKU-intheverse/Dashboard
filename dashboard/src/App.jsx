@@ -27,7 +27,7 @@ function App() {
     </BrowserRouter> */}
 
     < Header />
-    <div className="w-screen flex items-center ">
+    <div className="w-screen flex">
     < Sidebar/>
     < Dashboard />
     </div>

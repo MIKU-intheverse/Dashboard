@@ -19,8 +19,8 @@ const Card =(props) => {
 
 function CompactCard ({param}){
     return (
-        <div className=" w-100 h-56 px-4 container flex justify-between bg-gradient-to-r from-teal-700 to-teal-900 text-white relative cursor-pointer rounded-2xl">
-            <div className="pt-8 pb-4 px-2 container flex w-48 h-48">
+        <div className="w-full h-56 px-4 container flex justify-between bg-gradient-to-r from-teal-700 to-teal-900 text-white relative cursor-pointer rounded-2xl">
+            <div className="pt-8 pb-4 px-2 container flex h-48">
                 <CircularProgressbar
                 value={param.barValue}
                 text={`${param.barValue}%`}
@@ -61,7 +61,7 @@ const Cards = () => {
 ])
 
   return (
-    <div className="w-100 py-2 container flex flex-col gap-y-3 md:flex md:flex-row md:gap-x-3 items-center justify-between">
+    <div className="py-2 container flex flex-col gap-y-3 md:flex md:flex-row md:gap-x-3 justify-between">
       {CardsData.map((card , id) => {
           return(
             <div >

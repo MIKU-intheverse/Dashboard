@@ -4,7 +4,7 @@ import Cards from './Cards'
 const Dashboard =() => {
   
   return (
-    <div className="w-fit content-center px-4">
+    <div className="w-4/5 px-4">
       <Cards />
     </div>
   )
